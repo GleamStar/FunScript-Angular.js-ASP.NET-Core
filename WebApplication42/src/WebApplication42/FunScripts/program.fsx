@@ -49,7 +49,7 @@ module Program =
                    
 
                   let app = Globals.angular._module("App", [||])
-                  app.controller("dsd",[|"$scope";fun (scope: ng.IScope) -> "":>Object|])|> ignore
+                  app.controller("OptionCtrl",[|"$scope":>obj;(fun (scope: ng.IScope) -> scope?hello <- "hello"):>obj|])|> ignore
                   ()
                   //app.controller("sd",new ng.IModule())
                     
