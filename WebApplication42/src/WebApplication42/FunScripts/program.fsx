@@ -16,19 +16,6 @@ module Angular =
     let [<JSEmitInline("{0}[{1}] = {2}")>] (?<-) obj name value = ()
     let [<JSEmitInline("{0}[{1}]")>] (?) (v: obj) name: 'T = unbox (obj())
     
-   // let module' name requires = Globals.angular._module(name, requires)
-  //  let controller name (params': string list) (f: 'a -> unit) (module': ng.IModule) =
-   //     let params' = (params' |> List.map box) @ [ box f ] |> List.toArray
-   //     module'.controller(name, params')
-
-//    type ng.IScope with
-//        member self.``$watch``(watchExpression) =
-//           self.Dollarwatch(watchExpression: string)
-//        member self.g = "f"
- 
-
-    
-
 
 [<ReflectedDefinition>]
 module Program =
@@ -57,7 +44,12 @@ module Program =
                   let app = Globals.angular._module("App", [||])
                   app.controller("OptionCtrl",[|"$scope":>obj;(fun (scope: ng.IScope) ->                 
                    scope?data <- model
-                  // scope?data?city <-"Select city"
+                   scope?selected <-{
+                       city = "Одесса";
+                       typecar = "Легковые" ;
+                       crash ="Нет";
+                       years = 2016
+                   }
                          
                    
                    ):>obj|])|> ignore

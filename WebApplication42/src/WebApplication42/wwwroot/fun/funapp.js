@@ -1,4 +1,4 @@
-var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleInt32_Int32, Seq__Unfold$Int32__Int32_Int32_Int32, Seq__ToArray$Int32_Int32, Seq__IterateIndexed$Int32_Int32, Seq__FromFactory$Int32_Int32, Seq__FoldIndexedAux$Unit__Int32_Unit__Int32, Seq__FoldIndexed$Int32__Unit_Int32_Unit_, Seq__Enumerator$Int32_Int32, Range__oneStep$Int32_Int32, Range__customStep$Int32__Int32_Int32_Int32, Program_2_main$, Option__IsSome$Int32_Int32, Option__GetValue$Tuple_2_Int32__Int32_Tuple_2_Int32__Int32_, Option__GetValue$Int32_Int32, Model_2__ctor$, GenericConstants__Zero$Int32_Int32, GenericConstants__One$Int32_Int32, CreateEnumerable_1_Int32___ctor$Int32, Array__ZeroCreate$Int32_Int32;
+var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleInt32_Int32, Seq__Unfold$Int32__Int32_Int32_Int32, Seq__ToArray$Int32_Int32, Seq__IterateIndexed$Int32_Int32, Seq__FromFactory$Int32_Int32, Seq__FoldIndexedAux$Unit__Int32_Unit__Int32, Seq__FoldIndexed$Int32__Unit_Int32_Unit_, Seq__Enumerator$Int32_Int32, Selected_3__ctor$, Range__oneStep$Int32_Int32, Range__customStep$Int32__Int32_Int32_Int32, Program_6_main$, Option__IsSome$Int32_Int32, Option__GetValue$Tuple_2_Int32__Int32_Tuple_2_Int32__Int32_, Option__GetValue$Int32_Int32, Model_6__ctor$, GenericConstants__Zero$Int32_Int32, GenericConstants__One$Int32_Int32, CreateEnumerable_1_Int32___ctor$Int32, Array__ZeroCreate$Int32_Int32;
   Array__ZeroCreate$Int32_Int32 = (function(size)
   {
     return new Array(size);;
@@ -16,7 +16,7 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleInt32_Int32, Seq__U
   {
     return 0;;
   });
-  Model_2__ctor$ = (function(city,typecar,crash,years)
+  Model_6__ctor$ = (function(city,typecar,crash,years)
   {
     var __this = this;
     __this.city = city;
@@ -36,16 +36,17 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleInt32_Int32, Seq__U
   {
     return ((option.Tag == 1.000000) && true);
   });
-  Program_2_main$ = (function(unitVar0)
+  Program_6_main$ = (function(unitVar0)
   {
-    var model = (new Model_2__ctor$(["Киев", "Одесса", "Днепропетровск", "Львов"], ["Легковые", "Прицепы", "Автобусы", "Mото"], ["Нет", "1 год", "2 года", "3 года"], (Seq__ToArray$Int32_Int32(Range__oneStep$Int32_Int32(1950, 2016)).reverse())));
+    var model = (new Model_6__ctor$(["Киев", "Одесса", "Днепропетровск", "Львов"], ["Легковые", "Прицепы", "Автобусы", "Mото"], ["Нет", "1 год", "2 года", "3 года"], (Seq__ToArray$Int32_Int32(Range__oneStep$Int32_Int32(1950, 2016)).reverse())));
     var app = ((window.angular).module("App", []));
     (function(value)
     {
       var ignored0 = value;
     })((app.controller("OptionCtrl", ["$scope", (function(scope)
     {
-      return scope["data"] = model;
+      scope["data"] = model;
+      return scope["selected"] = (new Selected_3__ctor$("Одесса", "Легковые", "Нет", 2016));
     })])));
   });
   Range__customStep$Int32__Int32_Int32_Int32 = (function(first,stepping,last)
@@ -70,6 +71,14 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleInt32_Int32, Seq__U
   Range__oneStep$Int32_Int32 = (function(first,last)
   {
     return Range__customStep$Int32__Int32_Int32_Int32(first, GenericConstants__One$Int32_Int32(), last);
+  });
+  Selected_3__ctor$ = (function(city,typecar,crash,years)
+  {
+    var __this = this;
+    __this.city = city;
+    __this.typecar = typecar;
+    __this.crash = crash;
+    __this.years = years;
   });
   Seq__Enumerator$Int32_Int32 = (function(xs)
   {
@@ -207,4 +216,4 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleInt32_Int32, Seq__U
     __this.acc = {Tag: 1.000000, Value: __this.seed};
     __this.current = null;
   });
-  Program_2_main$()
+  Program_6_main$()
