@@ -15,7 +15,7 @@
                 <img src="~/images/banner1.jpg" alt="Visual Studio" class="img-responsive" />
                 <div class="carousel-caption">
                     <p>
-                        {{hello}}Save your money                       
+                        Save your money                       
                     </p>
                 </div>
             </div>
@@ -74,8 +74,11 @@
             <fieldset class="form-group">
                 <label for="crash">Not crashed experience</label>
                 <select id="crash" class="form-control" ng-model="selected.crash" ng-options="item for item in data.crash"></select>
+            </fieldset> 
+                <label for="crash">{{my.a}}</label>
+                <input type="text"  class="form-control"  ng-model="self.g" />
+              
             </fieldset>
-
             <button type="button" class="btn btn-success-outline center-block" data-toggle="modal" data-target="#myModal">
                 <i class="fa fa-calculator" aria-hidden="true"></i> Сalculate 
             </button>

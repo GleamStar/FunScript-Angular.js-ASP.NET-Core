@@ -16,18 +16,17 @@ module Angular =
     let [<JSEmitInline("{0}[{1}] = {2}")>] (?<-) obj name value = ()
     let [<JSEmitInline("{0}[{1}]")>] (?) (v: obj) name: 'T = unbox (obj())
     
-    let module' name requires = Globals.angular._module(name, requires)
-    let controller name (params': string list) (f: 'a -> unit) (module': ng.IModule) =
-        let params' = (params' |> List.map box) @ [ box f ] |> List.toArray
-        module'.controller(name, params')
+   // let module' name requires = Globals.angular._module(name, requires)
+  //  let controller name (params': string list) (f: 'a -> unit) (module': ng.IModule) =
+   //     let params' = (params' |> List.map box) @ [ box f ] |> List.toArray
+   //     module'.controller(name, params')
 
-    type ng.IScope with
-        member self.``$watch``(watchExpression) =
-            self.Dollarwatch(watchExpression: string)
-        member self.sd = "f"
+//    type ng.IScope with
+//        member self.``$watch``(watchExpression) =
+//           self.Dollarwatch(watchExpression: string)
+//        member self.g = "f"
+ 
 
-    type ng.IModule with
-        member this.hello = "df"
     
 
 
@@ -36,36 +35,34 @@ module Program =
     
     open Angular
     // For convenience, we'll be using main() as the program entry point
-    let main() =
-        // Write to the console using the JS method
-//         Globals.console.log("Hello JS!")
-//
-//         let appController =
-//            Ng.controller "OptionCtrl" ["$scope"] <| fun (scope: ng.IScope) ->
-//                scope?hello <- "hello"
-//                scope?setHello <- fun () -> scope?hello <- "new value"
-//                scope?getHello <- fun () -> Globals.alert(scope?hello) 
-          
-                   
-
+    type Model = {
+       city: string array ;
+       typecar: string array ;
+       crash: string array ;
+       years: int array 
+    }
+    type Selected ={
+       city: string  ;
+       typecar: string  ;
+       crash: string  ;
+       years: int  
+    }
+    let main() =                  
+                  let (model:Model) = {
+                       city = [|"Киев"; "Одесса"; "Днепропетровск"; "Львов"|] ;
+                       typecar=[|"Легковые"; "Прицепы"; "Автобусы"; "Mото"|];
+                       crash= [|"Нет"; "1 год"; "2 года"; "3 года"|];
+                       years= [|1950..2016|].reverse()
+                  }
                   let app = Globals.angular._module("App", [||])
-                  app.controller("OptionCtrl",[|"$scope":>obj;(fun (scope: ng.IScope) -> scope?hello <- "hello"):>obj|])|> ignore
+                  app.controller("OptionCtrl",[|"$scope":>obj;(fun (scope: ng.IScope) ->                 
+                   scope?data <- model
+                  // scope?data?city <-"Select city"
+                         
+                   
+                   ):>obj|])|> ignore
                   ()
-                  //app.controller("sd",new ng.IModule())
-                    
-                  
-
-                
-               
-              //app.controller("OptionCtrl", fun (scope:ng.IScope)->
-              //     scope?hello <- "hello"
-              
-           
-               
-    
-        // Write to the web page
-         
-
+                                                         
 
 // This will compile the code to JS and copy the html file and the generated script to the parent directory
 open System.IO
