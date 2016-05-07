@@ -58,31 +58,28 @@
         <form>
             <fieldset class="form-group">
                 <label for="typecar">Type of vehicle</label>
-                <select id="typecar" class="form-control" ng-model="selected.typecar" ng-options="item for item in data.typecar"></select>
+                <select id="typecar" class="form-control" ng-model="selected.typecar" ng-options="(item.GroupName +' ' + item.Name ) group by item.GroupName for item in data.typecar"></select>
             </fieldset>
 
             <fieldset class="form-group">
                 <label for="city">City vehicle registration</label>
-                <select id="city" class="form-control" ng-model="selected.city" ng-options="item for item in data.city"></select>
+                <select id="city" class="form-control" ng-model="selected.city" ng-options="item.Name group by item.Zone for item in data.city"></select>
             </fieldset>
-
+            
             <fieldset class="form-group">
                 <label for="years">Year Vehicle</label>
                 <select id="years" class="form-control" ng-model="selected.years" ng-options="item for item in data.years"></select>
             </fieldset>  
                   
             <fieldset class="form-group">
-                <label for="crash">Not crashed experience</label>
-                <select id="crash" class="form-control" ng-model="selected.crash" ng-options="item for item in data.crash"></select>
+                <label for="scopeuse">Scope of use of vehicle</label>
+                <select id="scopeuse" class="form-control" ng-model="selected.scopeuse" ng-options="item.Name for item in data.scopeuse"></select>
             </fieldset> 
-                <label for="crash">{{my.a}}</label>
-                <input type="text"  class="form-control"  ng-model="self.g" />
-              
-            </fieldset>
+               
             <button type="button" class="btn btn-success-outline center-block" data-toggle="modal" data-target="#myModal">
                 <i class="fa fa-calculator" aria-hidden="true"></i> Сalculate 
             </button>
-
+            <div fdff></div>
             <div id="myModal" class="modal fade" role="dialog">
                 <div class="modal-dialog">
 
@@ -94,12 +91,12 @@
                         </div>
                         <div class="modal-body">                                                          
                                     <ul>
-                                        <li>Your car is <span  class="text-info">{{selected.typecar}}</span></li>
-                                        <li>Your city is <span class="text-info">{{selected.city}}</span></li>
+                                        <li>Your car is <span  class="text-info">{{selected.typecar.GroupName}} {{selected.typecar.Name}}</span></li>
+                                        <li>Your city is <span class="text-info">{{selected.city.Name}}</span></li>
                                         <li>Car year is <span class="text-info">{{selected.years}}</span></li>
-                                        <li>Crash <span class="text-info">{{selected.crash}}</span></li>
+                                        <li>Crash <span class="text-info">{{selected.scopeuse.Name}}</span></li>
                                     </ul>                                                             
-                                    <p class="text-warning">Price:</p>                                                           
+                                    <p>Price:<span  class="text-warning">{{calculation()}}</span></p>                                                           
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
