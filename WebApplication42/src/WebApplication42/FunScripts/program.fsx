@@ -15,7 +15,10 @@ open FunScript
 module Angular =
     let [<JSEmitInline("{0}[{1}] = {2}")>] (?<-) obj name value = ()
     let [<JSEmitInline("{0}[{1}]")>] (?) (v: obj) name: 'T = unbox (obj())
-    
+    type ng.IScope with
+            member self.``$watch``(watchExpression) =
+                self.Dollarwatch(watchExpression: string)
+
 
 [<ReflectedDefinition>]
 module Program =
@@ -62,6 +65,12 @@ module Program =
        typecar: CarViewModel array ;
        scopeuse: ViewScopeUse array ;
        years: int array 
+    }
+     type SelectedModel = {
+       city: CityViewModel  ;
+       typecar: CarViewModel  ;
+       scopeuse: ViewScopeUse  ;
+       years: int  
     }
     type City = string 
     type Zone = {
@@ -126,12 +135,12 @@ module Program =
                    scope?calculation <- fun () -> try  
                                                       Math.Round(180.*1.5* scope?selected?scopeuse?Coefficient * scope?selected?city?Coefficient *scope?selected?scopeuse?Coefficient).ToString()
                                                   with | _  -> "Enter valid data"                                              
-//                   scope?selected <-{
-//                       city = "Одесса";
-//                       typecar = "Легковые" ;
-//                       crash ="Нет";
-//                       years = 2016
-//                   }
+                   scope?selected <-{
+                      city = {Name="Киев";Zone="Зона1";Coefficient=4.8}
+                      typecar = {GroupName ="Легковий автомобіль";Coefficient=1.;Name="до 1600 кубічних сантиметрів"} 
+                      scopeuse = {Name="Личный автомобиль";Coefficient=1.;} 
+                      years = 2016
+                   }
                          
                    
                    ):>obj|])|> ignore

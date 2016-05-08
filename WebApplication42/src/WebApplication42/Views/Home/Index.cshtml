@@ -58,7 +58,7 @@
         <form>
             <fieldset class="form-group">
                 <label for="typecar">Type of vehicle</label>
-                <select id="typecar" class="form-control" ng-model="selected.typecar" ng-options="(item.GroupName +' ' + item.Name ) group by item.GroupName for item in data.typecar"></select>
+                <select id="typecar" class="form-control" ng-model="selected.typecar" ng-options="(item.GroupName +' ' + item.Name ) group by item.GroupName for item in data.typecar "></select>
             </fieldset>
 
             <fieldset class="form-group">
@@ -79,32 +79,8 @@
             <button type="button" class="btn btn-success-outline center-block" data-toggle="modal" data-target="#myModal">
                 <i class="fa fa-calculator" aria-hidden="true"></i> Сalculate 
             </button>
-            <div fdff></div>
-            <div id="myModal" class="modal fade" role="dialog">
-                <div class="modal-dialog">
+           @await Html.PartialAsync("_Dialog")
 
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title">Result</h4>
-                        </div>
-                        <div class="modal-body">                                                          
-                                    <ul>
-                                        <li>Your car is <span  class="text-info">{{selected.typecar.GroupName}} {{selected.typecar.Name}}</span></li>
-                                        <li>Your city is <span class="text-info">{{selected.city.Name}}</span></li>
-                                        <li>Car year is <span class="text-info">{{selected.years}}</span></li>
-                                        <li>Crash <span class="text-info">{{selected.scopeuse.Name}}</span></li>
-                                    </ul>                                                             
-                                    <p>Price:<span  class="text-warning">{{calculation()}}</span></p>                                                           
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
         </form>
     </div>
    

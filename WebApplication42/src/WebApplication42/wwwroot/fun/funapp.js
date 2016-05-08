@@ -1,9 +1,9 @@
-var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilString, list_1_String__ConsString, list_1_CityViewModel_15_NilCityViewModel_15, list_1_CityViewModel_15_ConsCityViewModel_15, list_1_Car_13_NilCar_13, list_1_Car_13_ConsCar_13, list_1_CarViewModel_13_NilCarViewModel_13, list_1_CarViewModel_13_ConsCarViewModel_13, list_1_CarType_13_NilCarType_13, list_1_CarType_13_ConsCarType_13, Zone_15__ctor$, ViewScopeUse_12__ctor$, ViewModel_13__ctor$, UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleInt32_Int32, Seq__Unfold$Int32__Int32_Int32_Int32, Seq__ToArray$Int32_Int32, Seq__IterateIndexed$Int32_Int32, Seq__FromFactory$Int32_Int32, Seq__FoldIndexedAux$Unit__Int32_Unit__Int32, Seq__FoldIndexed$Int32__Unit_Int32_Unit_, Seq__Enumerator$Int32_Int32, Range__oneStep$Int32_Int32, Range__customStep$Int32__Int32_Int32_Int32, Program_15_zones, Program_15_scopeuse, Program_15_main$, Program_15_get_zones$, Program_15_get_scopeuse$, Program_15_get_cars$, Program_15_cars, Program_15_GetCityItems$, Program_15_GetCarItems$, Option__IsSome$Int32_Int32, Option__GetValue$Tuple_2_Int32__Int32_Tuple_2_Int32__Int32_, Option__GetValue$Int32_Int32, MathJS__Round$, List__ToArray$CityViewModel_15CityViewModel_15, List__ToArray$CarViewModel_13CarViewModel_13, List__Reverse$Zone_15Zone_15, List__Reverse$CityViewModel_15CityViewModel_15, List__Reverse$Car_13Car_13, List__Reverse$CarViewModel_13CarViewModel_13, List__Map$String__CityViewModel_15String_CityViewModel_15, List__Map$CarType_13_CarViewModel_13CarType_13_CarViewModel_13, List__Length$CityViewModel_15CityViewModel_15, List__Length$CarViewModel_13CarViewModel_13, List__IterateIndexed$CityViewModel_15CityViewModel_15, List__IterateIndexed$CarViewModel_13CarViewModel_13, List__FoldIndexedAux$list_1_Zone_15_Zone_15list_1_Zone_15_Zone_15, List__FoldIndexedAux$list_1_CityViewModel_15_Zone_15list_1_CityViewModel_15_Zone_15, List__FoldIndexedAux$list_1_CityViewModel_15_String_list_1_CityViewModel_15_String, List__FoldIndexedAux$list_1_CityViewModel_15_CityViewModel_15list_1_CityViewModel_15_CityViewModel_15, List__FoldIndexedAux$list_1_Car_13_Car_13list_1_Car_13_Car_13, List__FoldIndexedAux$list_1_CarViewModel_13_Car_13list_1_CarViewModel_13_Car_13, List__FoldIndexedAux$list_1_CarViewModel_13_CarViewModel_13list_1_CarViewModel_13_CarViewModel_13, List__FoldIndexedAux$list_1_CarViewModel_13_CarType_13list_1_CarViewModel_13_CarType_13, List__FoldIndexedAux$Unit__CityViewModel_15Unit__CityViewModel_15, List__FoldIndexedAux$Unit__CarViewModel_13Unit__CarViewModel_13, List__FoldIndexedAux$Int32__CityViewModel_15Int32_CityViewModel_15, List__FoldIndexedAux$Int32__CarViewModel_13Int32_CarViewModel_13, List__FoldIndexed$Zone_15_list_1_Zone_15Zone_15_list_1_Zone_15, List__FoldIndexed$Zone_15_list_1_CityViewModel_15Zone_15_list_1_CityViewModel_15, List__FoldIndexed$String__list_1_CityViewModel_15String_list_1_CityViewModel_15, List__FoldIndexed$CityViewModel_15_list_1_CityViewModel_15CityViewModel_15_list_1_CityViewModel_15, List__FoldIndexed$CityViewModel_15_Unit_CityViewModel_15_Unit_, List__FoldIndexed$CityViewModel_15_Int32_CityViewModel_15_Int32, List__FoldIndexed$Car_13_list_1_Car_13Car_13_list_1_Car_13, List__FoldIndexed$Car_13_list_1_CarViewModel_13Car_13_list_1_CarViewModel_13, List__FoldIndexed$CarViewModel_13_list_1_CarViewModel_13CarViewModel_13_list_1_CarViewModel_13, List__FoldIndexed$CarViewModel_13_Unit_CarViewModel_13_Unit_, List__FoldIndexed$CarViewModel_13_Int32_CarViewModel_13_Int32, List__FoldIndexed$CarType_13_list_1_CarViewModel_13CarType_13_list_1_CarViewModel_13, List__Fold$Zone_15_list_1_Zone_15Zone_15_list_1_Zone_15, List__Fold$Zone_15_list_1_CityViewModel_15Zone_15_list_1_CityViewModel_15, List__Fold$String__list_1_CityViewModel_15String_list_1_CityViewModel_15, List__Fold$CityViewModel_15_list_1_CityViewModel_15CityViewModel_15_list_1_CityViewModel_15, List__Fold$CityViewModel_15_Int32_CityViewModel_15_Int32, List__Fold$Car_13_list_1_Car_13Car_13_list_1_Car_13, List__Fold$Car_13_list_1_CarViewModel_13Car_13_list_1_CarViewModel_13, List__Fold$CarViewModel_13_list_1_CarViewModel_13CarViewModel_13_list_1_CarViewModel_13, List__Fold$CarViewModel_13_Int32_CarViewModel_13_Int32, List__Fold$CarType_13_list_1_CarViewModel_13CarType_13_list_1_CarViewModel_13, List__Empty$Zone_15Zone_15, List__Empty$String_String, List__Empty$Car_13Car_13, List__Empty$CarType_13CarType_13, List__CreateCons$Zone_15Zone_15, List__CreateCons$String_String, List__CreateCons$Car_13Car_13, List__CreateCons$CarType_13CarType_13, List__Collect$Zone_15_CityViewModel_15Zone_15_CityViewModel_15, List__Collect$Car_13_CarViewModel_13Car_13_CarViewModel_13, List__Append$CityViewModel_15CityViewModel_15, List__Append$CarViewModel_13CarViewModel_13, GenericConstants__Zero$Int32_Int32, GenericConstants__One$Int32_Int32, CreateEnumerable_1_Int32___ctor$Int32, CityViewModel_15__ctor$, Car_13__ctor$, CarViewModel_13__ctor$, CarType_13__ctor$, Array__ZeroCreate$Int32_Int32, Array__ZeroCreate$CityViewModel_15CityViewModel_15, Array__ZeroCreate$CarViewModel_13CarViewModel_13;
-  Array__ZeroCreate$CarViewModel_13CarViewModel_13 = (function(size)
+var list_1_Zone_6_NilZone_6, list_1_Zone_6_ConsZone_6, list_1_String__NilString, list_1_String__ConsString, list_1_CityViewModel_6_NilCityViewModel_6, list_1_CityViewModel_6_ConsCityViewModel_6, list_1_Car_6_NilCar_6, list_1_Car_6_ConsCar_6, list_1_CarViewModel_6_NilCarViewModel_6, list_1_CarViewModel_6_ConsCarViewModel_6, list_1_CarType_6_NilCarType_6, list_1_CarType_6_ConsCarType_6, Zone_6__ctor$, ViewScopeUse_6__ctor$, ViewModel_6__ctor$, UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleInt32_Int32, Seq__Unfold$Int32__Int32_Int32_Int32, Seq__ToArray$Int32_Int32, Seq__IterateIndexed$Int32_Int32, Seq__FromFactory$Int32_Int32, Seq__FoldIndexedAux$Unit__Int32_Unit__Int32, Seq__FoldIndexed$Int32__Unit_Int32_Unit_, Seq__Enumerator$Int32_Int32, Range__oneStep$Int32_Int32, Range__customStep$Int32__Int32_Int32_Int32, Program_6_zones, Program_6_scopeuse, Program_6_main$, Program_6_get_zones$, Program_6_get_scopeuse$, Program_6_get_cars$, Program_6_cars, Program_6_GetCityItems$, Program_6_GetCarItems$, Option__IsSome$Int32_Int32, Option__GetValue$Tuple_2_Int32__Int32_Tuple_2_Int32__Int32_, Option__GetValue$Int32_Int32, MathJS__Round$, List__ToArray$CityViewModel_6CityViewModel_6, List__ToArray$CarViewModel_6CarViewModel_6, List__Reverse$Zone_6Zone_6, List__Reverse$CityViewModel_6CityViewModel_6, List__Reverse$Car_6Car_6, List__Reverse$CarViewModel_6CarViewModel_6, List__Map$String__CityViewModel_6String_CityViewModel_6, List__Map$CarType_6_CarViewModel_6CarType_6_CarViewModel_6, List__Length$CityViewModel_6CityViewModel_6, List__Length$CarViewModel_6CarViewModel_6, List__IterateIndexed$CityViewModel_6CityViewModel_6, List__IterateIndexed$CarViewModel_6CarViewModel_6, List__FoldIndexedAux$list_1_Zone_6_Zone_6list_1_Zone_6_Zone_6, List__FoldIndexedAux$list_1_CityViewModel_6_Zone_6list_1_CityViewModel_6_Zone_6, List__FoldIndexedAux$list_1_CityViewModel_6_String_list_1_CityViewModel_6_String, List__FoldIndexedAux$list_1_CityViewModel_6_CityViewModel_6list_1_CityViewModel_6_CityViewModel_6, List__FoldIndexedAux$list_1_Car_6_Car_6list_1_Car_6_Car_6, List__FoldIndexedAux$list_1_CarViewModel_6_Car_6list_1_CarViewModel_6_Car_6, List__FoldIndexedAux$list_1_CarViewModel_6_CarViewModel_6list_1_CarViewModel_6_CarViewModel_6, List__FoldIndexedAux$list_1_CarViewModel_6_CarType_6list_1_CarViewModel_6_CarType_6, List__FoldIndexedAux$Unit__CityViewModel_6Unit__CityViewModel_6, List__FoldIndexedAux$Unit__CarViewModel_6Unit__CarViewModel_6, List__FoldIndexedAux$Int32__CityViewModel_6Int32_CityViewModel_6, List__FoldIndexedAux$Int32__CarViewModel_6Int32_CarViewModel_6, List__FoldIndexed$Zone_6_list_1_Zone_6Zone_6_list_1_Zone_6, List__FoldIndexed$Zone_6_list_1_CityViewModel_6Zone_6_list_1_CityViewModel_6, List__FoldIndexed$String__list_1_CityViewModel_6String_list_1_CityViewModel_6, List__FoldIndexed$CityViewModel_6_list_1_CityViewModel_6CityViewModel_6_list_1_CityViewModel_6, List__FoldIndexed$CityViewModel_6_Unit_CityViewModel_6_Unit_, List__FoldIndexed$CityViewModel_6_Int32_CityViewModel_6_Int32, List__FoldIndexed$Car_6_list_1_Car_6Car_6_list_1_Car_6, List__FoldIndexed$Car_6_list_1_CarViewModel_6Car_6_list_1_CarViewModel_6, List__FoldIndexed$CarViewModel_6_list_1_CarViewModel_6CarViewModel_6_list_1_CarViewModel_6, List__FoldIndexed$CarViewModel_6_Unit_CarViewModel_6_Unit_, List__FoldIndexed$CarViewModel_6_Int32_CarViewModel_6_Int32, List__FoldIndexed$CarType_6_list_1_CarViewModel_6CarType_6_list_1_CarViewModel_6, List__Fold$Zone_6_list_1_Zone_6Zone_6_list_1_Zone_6, List__Fold$Zone_6_list_1_CityViewModel_6Zone_6_list_1_CityViewModel_6, List__Fold$String__list_1_CityViewModel_6String_list_1_CityViewModel_6, List__Fold$CityViewModel_6_list_1_CityViewModel_6CityViewModel_6_list_1_CityViewModel_6, List__Fold$CityViewModel_6_Int32_CityViewModel_6_Int32, List__Fold$Car_6_list_1_Car_6Car_6_list_1_Car_6, List__Fold$Car_6_list_1_CarViewModel_6Car_6_list_1_CarViewModel_6, List__Fold$CarViewModel_6_list_1_CarViewModel_6CarViewModel_6_list_1_CarViewModel_6, List__Fold$CarViewModel_6_Int32_CarViewModel_6_Int32, List__Fold$CarType_6_list_1_CarViewModel_6CarType_6_list_1_CarViewModel_6, List__Empty$Zone_6Zone_6, List__Empty$String_String, List__Empty$Car_6Car_6, List__Empty$CarType_6CarType_6, List__CreateCons$Zone_6Zone_6, List__CreateCons$String_String, List__CreateCons$Car_6Car_6, List__CreateCons$CarType_6CarType_6, List__Collect$Zone_6_CityViewModel_6Zone_6_CityViewModel_6, List__Collect$Car_6_CarViewModel_6Car_6_CarViewModel_6, List__Append$CityViewModel_6CityViewModel_6, List__Append$CarViewModel_6CarViewModel_6, GenericConstants__Zero$Int32_Int32, GenericConstants__One$Int32_Int32, CreateEnumerable_1_Int32___ctor$Int32, CityViewModel_6__ctor$, Car_6__ctor$, CarViewModel_6__ctor$, CarType_6__ctor$, Array__ZeroCreate$Int32_Int32, Array__ZeroCreate$CityViewModel_6CityViewModel_6, Array__ZeroCreate$CarViewModel_6CarViewModel_6;
+  Array__ZeroCreate$CarViewModel_6CarViewModel_6 = (function(size)
   {
     return new Array(size);;
   });
-  Array__ZeroCreate$CityViewModel_15CityViewModel_15 = (function(size)
+  Array__ZeroCreate$CityViewModel_6CityViewModel_6 = (function(size)
   {
     return new Array(size);;
   });
@@ -11,26 +11,26 @@ var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilStr
   {
     return new Array(size);;
   });
-  CarType_13__ctor$ = (function(Coefficient,Name)
+  CarType_6__ctor$ = (function(Coefficient,Name)
   {
     var __this = this;
     __this.Coefficient = Coefficient;
     __this.Name = Name;
   });
-  CarViewModel_13__ctor$ = (function(GroupName,Name,Coefficient)
+  CarViewModel_6__ctor$ = (function(GroupName,Name,Coefficient)
   {
     var __this = this;
     __this.GroupName = GroupName;
     __this.Name = Name;
     __this.Coefficient = Coefficient;
   });
-  Car_13__ctor$ = (function(GroupName,Type)
+  Car_6__ctor$ = (function(GroupName,Type)
   {
     var __this = this;
     __this.GroupName = GroupName;
     __this.Type = Type;
   });
-  CityViewModel_15__ctor$ = (function(Name,Zone,Coefficient)
+  CityViewModel_6__ctor$ = (function(Name,Zone,Coefficient)
   {
     var __this = this;
     __this.Name = Name;
@@ -50,81 +50,81 @@ var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilStr
   {
     return 0;;
   });
-  List__Append$CarViewModel_13CarViewModel_13 = (function(xs,ys)
+  List__Append$CarViewModel_6CarViewModel_6 = (function(xs,ys)
   {
-    return List__Fold$CarViewModel_13_list_1_CarViewModel_13CarViewModel_13_list_1_CarViewModel_13((function(acc)
+    return List__Fold$CarViewModel_6_list_1_CarViewModel_6CarViewModel_6_list_1_CarViewModel_6((function(acc)
     {
       return (function(x)
       {
-        return (new list_1_CarViewModel_13_ConsCarViewModel_13(x, acc));
+        return (new list_1_CarViewModel_6_ConsCarViewModel_6(x, acc));
       });
-    }), ys, List__Reverse$CarViewModel_13CarViewModel_13(xs));
+    }), ys, List__Reverse$CarViewModel_6CarViewModel_6(xs));
   });
-  List__Append$CityViewModel_15CityViewModel_15 = (function(xs,ys)
+  List__Append$CityViewModel_6CityViewModel_6 = (function(xs,ys)
   {
-    return List__Fold$CityViewModel_15_list_1_CityViewModel_15CityViewModel_15_list_1_CityViewModel_15((function(acc)
+    return List__Fold$CityViewModel_6_list_1_CityViewModel_6CityViewModel_6_list_1_CityViewModel_6((function(acc)
     {
       return (function(x)
       {
-        return (new list_1_CityViewModel_15_ConsCityViewModel_15(x, acc));
+        return (new list_1_CityViewModel_6_ConsCityViewModel_6(x, acc));
       });
-    }), ys, List__Reverse$CityViewModel_15CityViewModel_15(xs));
+    }), ys, List__Reverse$CityViewModel_6CityViewModel_6(xs));
   });
-  List__Collect$Car_13_CarViewModel_13Car_13_CarViewModel_13 = (function(f,xs)
+  List__Collect$Car_6_CarViewModel_6Car_6_CarViewModel_6 = (function(f,xs)
   {
-    return List__Fold$Car_13_list_1_CarViewModel_13Car_13_list_1_CarViewModel_13((function(acc)
+    return List__Fold$Car_6_list_1_CarViewModel_6Car_6_list_1_CarViewModel_6((function(acc)
     {
       return (function(x)
       {
-        return List__Append$CarViewModel_13CarViewModel_13(f(x), acc);
+        return List__Append$CarViewModel_6CarViewModel_6(f(x), acc);
       });
-    }), (new list_1_CarViewModel_13_NilCarViewModel_13()), List__Reverse$Car_13Car_13(xs));
+    }), (new list_1_CarViewModel_6_NilCarViewModel_6()), List__Reverse$Car_6Car_6(xs));
   });
-  List__Collect$Zone_15_CityViewModel_15Zone_15_CityViewModel_15 = (function(f,xs)
+  List__Collect$Zone_6_CityViewModel_6Zone_6_CityViewModel_6 = (function(f,xs)
   {
-    return List__Fold$Zone_15_list_1_CityViewModel_15Zone_15_list_1_CityViewModel_15((function(acc)
+    return List__Fold$Zone_6_list_1_CityViewModel_6Zone_6_list_1_CityViewModel_6((function(acc)
     {
       return (function(x)
       {
-        return List__Append$CityViewModel_15CityViewModel_15(f(x), acc);
+        return List__Append$CityViewModel_6CityViewModel_6(f(x), acc);
       });
-    }), (new list_1_CityViewModel_15_NilCityViewModel_15()), List__Reverse$Zone_15Zone_15(xs));
+    }), (new list_1_CityViewModel_6_NilCityViewModel_6()), List__Reverse$Zone_6Zone_6(xs));
   });
-  List__CreateCons$CarType_13CarType_13 = (function(x,xs)
+  List__CreateCons$CarType_6CarType_6 = (function(x,xs)
   {
-    return (new list_1_CarType_13_ConsCarType_13(x, xs));
+    return (new list_1_CarType_6_ConsCarType_6(x, xs));
   });
-  List__CreateCons$Car_13Car_13 = (function(x,xs)
+  List__CreateCons$Car_6Car_6 = (function(x,xs)
   {
-    return (new list_1_Car_13_ConsCar_13(x, xs));
+    return (new list_1_Car_6_ConsCar_6(x, xs));
   });
   List__CreateCons$String_String = (function(x,xs)
   {
     return (new list_1_String__ConsString(x, xs));
   });
-  List__CreateCons$Zone_15Zone_15 = (function(x,xs)
+  List__CreateCons$Zone_6Zone_6 = (function(x,xs)
   {
-    return (new list_1_Zone_15_ConsZone_15(x, xs));
+    return (new list_1_Zone_6_ConsZone_6(x, xs));
   });
-  List__Empty$CarType_13CarType_13 = (function()
+  List__Empty$CarType_6CarType_6 = (function()
   {
-    return (new list_1_CarType_13_NilCarType_13());
+    return (new list_1_CarType_6_NilCarType_6());
   });
-  List__Empty$Car_13Car_13 = (function()
+  List__Empty$Car_6Car_6 = (function()
   {
-    return (new list_1_Car_13_NilCar_13());
+    return (new list_1_Car_6_NilCar_6());
   });
   List__Empty$String_String = (function()
   {
     return (new list_1_String__NilString());
   });
-  List__Empty$Zone_15Zone_15 = (function()
+  List__Empty$Zone_6Zone_6 = (function()
   {
-    return (new list_1_Zone_15_NilZone_15());
+    return (new list_1_Zone_6_NilZone_6());
   });
-  List__Fold$CarType_13_list_1_CarViewModel_13CarType_13_list_1_CarViewModel_13 = (function(f,seed,xs)
+  List__Fold$CarType_6_list_1_CarViewModel_6CarType_6_list_1_CarViewModel_6 = (function(f,seed,xs)
   {
-    return List__FoldIndexed$CarType_13_list_1_CarViewModel_13CarType_13_list_1_CarViewModel_13((function(_arg1)
+    return List__FoldIndexed$CarType_6_list_1_CarViewModel_6CarType_6_list_1_CarViewModel_6((function(_arg1)
     {
       return (function(acc)
       {
@@ -135,9 +135,9 @@ var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilStr
       });
     }), seed, xs);
   });
-  List__Fold$CarViewModel_13_Int32_CarViewModel_13_Int32 = (function(f,seed,xs)
+  List__Fold$CarViewModel_6_Int32_CarViewModel_6_Int32 = (function(f,seed,xs)
   {
-    return List__FoldIndexed$CarViewModel_13_Int32_CarViewModel_13_Int32((function(_arg1)
+    return List__FoldIndexed$CarViewModel_6_Int32_CarViewModel_6_Int32((function(_arg1)
     {
       return (function(acc)
       {
@@ -148,9 +148,9 @@ var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilStr
       });
     }), seed, xs);
   });
-  List__Fold$CarViewModel_13_list_1_CarViewModel_13CarViewModel_13_list_1_CarViewModel_13 = (function(f,seed,xs)
+  List__Fold$CarViewModel_6_list_1_CarViewModel_6CarViewModel_6_list_1_CarViewModel_6 = (function(f,seed,xs)
   {
-    return List__FoldIndexed$CarViewModel_13_list_1_CarViewModel_13CarViewModel_13_list_1_CarViewModel_13((function(_arg1)
+    return List__FoldIndexed$CarViewModel_6_list_1_CarViewModel_6CarViewModel_6_list_1_CarViewModel_6((function(_arg1)
     {
       return (function(acc)
       {
@@ -161,9 +161,9 @@ var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilStr
       });
     }), seed, xs);
   });
-  List__Fold$Car_13_list_1_CarViewModel_13Car_13_list_1_CarViewModel_13 = (function(f,seed,xs)
+  List__Fold$Car_6_list_1_CarViewModel_6Car_6_list_1_CarViewModel_6 = (function(f,seed,xs)
   {
-    return List__FoldIndexed$Car_13_list_1_CarViewModel_13Car_13_list_1_CarViewModel_13((function(_arg1)
+    return List__FoldIndexed$Car_6_list_1_CarViewModel_6Car_6_list_1_CarViewModel_6((function(_arg1)
     {
       return (function(acc)
       {
@@ -174,9 +174,9 @@ var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilStr
       });
     }), seed, xs);
   });
-  List__Fold$Car_13_list_1_Car_13Car_13_list_1_Car_13 = (function(f,seed,xs)
+  List__Fold$Car_6_list_1_Car_6Car_6_list_1_Car_6 = (function(f,seed,xs)
   {
-    return List__FoldIndexed$Car_13_list_1_Car_13Car_13_list_1_Car_13((function(_arg1)
+    return List__FoldIndexed$Car_6_list_1_Car_6Car_6_list_1_Car_6((function(_arg1)
     {
       return (function(acc)
       {
@@ -187,9 +187,9 @@ var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilStr
       });
     }), seed, xs);
   });
-  List__Fold$CityViewModel_15_Int32_CityViewModel_15_Int32 = (function(f,seed,xs)
+  List__Fold$CityViewModel_6_Int32_CityViewModel_6_Int32 = (function(f,seed,xs)
   {
-    return List__FoldIndexed$CityViewModel_15_Int32_CityViewModel_15_Int32((function(_arg1)
+    return List__FoldIndexed$CityViewModel_6_Int32_CityViewModel_6_Int32((function(_arg1)
     {
       return (function(acc)
       {
@@ -200,9 +200,9 @@ var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilStr
       });
     }), seed, xs);
   });
-  List__Fold$CityViewModel_15_list_1_CityViewModel_15CityViewModel_15_list_1_CityViewModel_15 = (function(f,seed,xs)
+  List__Fold$CityViewModel_6_list_1_CityViewModel_6CityViewModel_6_list_1_CityViewModel_6 = (function(f,seed,xs)
   {
-    return List__FoldIndexed$CityViewModel_15_list_1_CityViewModel_15CityViewModel_15_list_1_CityViewModel_15((function(_arg1)
+    return List__FoldIndexed$CityViewModel_6_list_1_CityViewModel_6CityViewModel_6_list_1_CityViewModel_6((function(_arg1)
     {
       return (function(acc)
       {
@@ -213,9 +213,9 @@ var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilStr
       });
     }), seed, xs);
   });
-  List__Fold$String__list_1_CityViewModel_15String_list_1_CityViewModel_15 = (function(f,seed,xs)
+  List__Fold$String__list_1_CityViewModel_6String_list_1_CityViewModel_6 = (function(f,seed,xs)
   {
-    return List__FoldIndexed$String__list_1_CityViewModel_15String_list_1_CityViewModel_15((function(_arg1)
+    return List__FoldIndexed$String__list_1_CityViewModel_6String_list_1_CityViewModel_6((function(_arg1)
     {
       return (function(acc)
       {
@@ -226,9 +226,9 @@ var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilStr
       });
     }), seed, xs);
   });
-  List__Fold$Zone_15_list_1_CityViewModel_15Zone_15_list_1_CityViewModel_15 = (function(f,seed,xs)
+  List__Fold$Zone_6_list_1_CityViewModel_6Zone_6_list_1_CityViewModel_6 = (function(f,seed,xs)
   {
-    return List__FoldIndexed$Zone_15_list_1_CityViewModel_15Zone_15_list_1_CityViewModel_15((function(_arg1)
+    return List__FoldIndexed$Zone_6_list_1_CityViewModel_6Zone_6_list_1_CityViewModel_6((function(_arg1)
     {
       return (function(acc)
       {
@@ -239,9 +239,9 @@ var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilStr
       });
     }), seed, xs);
   });
-  List__Fold$Zone_15_list_1_Zone_15Zone_15_list_1_Zone_15 = (function(f,seed,xs)
+  List__Fold$Zone_6_list_1_Zone_6Zone_6_list_1_Zone_6 = (function(f,seed,xs)
   {
-    return List__FoldIndexed$Zone_15_list_1_Zone_15Zone_15_list_1_Zone_15((function(_arg1)
+    return List__FoldIndexed$Zone_6_list_1_Zone_6Zone_6_list_1_Zone_6((function(_arg1)
     {
       return (function(acc)
       {
@@ -252,214 +252,214 @@ var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilStr
       });
     }), seed, xs);
   });
-  List__FoldIndexed$CarType_13_list_1_CarViewModel_13CarType_13_list_1_CarViewModel_13 = (function(f,seed,xs)
+  List__FoldIndexed$CarType_6_list_1_CarViewModel_6CarType_6_list_1_CarViewModel_6 = (function(f,seed,xs)
   {
-    return List__FoldIndexedAux$list_1_CarViewModel_13_CarType_13list_1_CarViewModel_13_CarType_13(f, 0, seed, xs);
+    return List__FoldIndexedAux$list_1_CarViewModel_6_CarType_6list_1_CarViewModel_6_CarType_6(f, 0, seed, xs);
   });
-  List__FoldIndexed$CarViewModel_13_Int32_CarViewModel_13_Int32 = (function(f,seed,xs)
+  List__FoldIndexed$CarViewModel_6_Int32_CarViewModel_6_Int32 = (function(f,seed,xs)
   {
-    return List__FoldIndexedAux$Int32__CarViewModel_13Int32_CarViewModel_13(f, 0, seed, xs);
+    return List__FoldIndexedAux$Int32__CarViewModel_6Int32_CarViewModel_6(f, 0, seed, xs);
   });
-  List__FoldIndexed$CarViewModel_13_Unit_CarViewModel_13_Unit_ = (function(f,seed,xs)
+  List__FoldIndexed$CarViewModel_6_Unit_CarViewModel_6_Unit_ = (function(f,seed,xs)
   {
-    return List__FoldIndexedAux$Unit__CarViewModel_13Unit__CarViewModel_13(f, 0, seed, xs);
+    return List__FoldIndexedAux$Unit__CarViewModel_6Unit__CarViewModel_6(f, 0, seed, xs);
   });
-  List__FoldIndexed$CarViewModel_13_list_1_CarViewModel_13CarViewModel_13_list_1_CarViewModel_13 = (function(f,seed,xs)
+  List__FoldIndexed$CarViewModel_6_list_1_CarViewModel_6CarViewModel_6_list_1_CarViewModel_6 = (function(f,seed,xs)
   {
-    return List__FoldIndexedAux$list_1_CarViewModel_13_CarViewModel_13list_1_CarViewModel_13_CarViewModel_13(f, 0, seed, xs);
+    return List__FoldIndexedAux$list_1_CarViewModel_6_CarViewModel_6list_1_CarViewModel_6_CarViewModel_6(f, 0, seed, xs);
   });
-  List__FoldIndexed$Car_13_list_1_CarViewModel_13Car_13_list_1_CarViewModel_13 = (function(f,seed,xs)
+  List__FoldIndexed$Car_6_list_1_CarViewModel_6Car_6_list_1_CarViewModel_6 = (function(f,seed,xs)
   {
-    return List__FoldIndexedAux$list_1_CarViewModel_13_Car_13list_1_CarViewModel_13_Car_13(f, 0, seed, xs);
+    return List__FoldIndexedAux$list_1_CarViewModel_6_Car_6list_1_CarViewModel_6_Car_6(f, 0, seed, xs);
   });
-  List__FoldIndexed$Car_13_list_1_Car_13Car_13_list_1_Car_13 = (function(f,seed,xs)
+  List__FoldIndexed$Car_6_list_1_Car_6Car_6_list_1_Car_6 = (function(f,seed,xs)
   {
-    return List__FoldIndexedAux$list_1_Car_13_Car_13list_1_Car_13_Car_13(f, 0, seed, xs);
+    return List__FoldIndexedAux$list_1_Car_6_Car_6list_1_Car_6_Car_6(f, 0, seed, xs);
   });
-  List__FoldIndexed$CityViewModel_15_Int32_CityViewModel_15_Int32 = (function(f,seed,xs)
+  List__FoldIndexed$CityViewModel_6_Int32_CityViewModel_6_Int32 = (function(f,seed,xs)
   {
-    return List__FoldIndexedAux$Int32__CityViewModel_15Int32_CityViewModel_15(f, 0, seed, xs);
+    return List__FoldIndexedAux$Int32__CityViewModel_6Int32_CityViewModel_6(f, 0, seed, xs);
   });
-  List__FoldIndexed$CityViewModel_15_Unit_CityViewModel_15_Unit_ = (function(f,seed,xs)
+  List__FoldIndexed$CityViewModel_6_Unit_CityViewModel_6_Unit_ = (function(f,seed,xs)
   {
-    return List__FoldIndexedAux$Unit__CityViewModel_15Unit__CityViewModel_15(f, 0, seed, xs);
+    return List__FoldIndexedAux$Unit__CityViewModel_6Unit__CityViewModel_6(f, 0, seed, xs);
   });
-  List__FoldIndexed$CityViewModel_15_list_1_CityViewModel_15CityViewModel_15_list_1_CityViewModel_15 = (function(f,seed,xs)
+  List__FoldIndexed$CityViewModel_6_list_1_CityViewModel_6CityViewModel_6_list_1_CityViewModel_6 = (function(f,seed,xs)
   {
-    return List__FoldIndexedAux$list_1_CityViewModel_15_CityViewModel_15list_1_CityViewModel_15_CityViewModel_15(f, 0, seed, xs);
+    return List__FoldIndexedAux$list_1_CityViewModel_6_CityViewModel_6list_1_CityViewModel_6_CityViewModel_6(f, 0, seed, xs);
   });
-  List__FoldIndexed$String__list_1_CityViewModel_15String_list_1_CityViewModel_15 = (function(f,seed,xs)
+  List__FoldIndexed$String__list_1_CityViewModel_6String_list_1_CityViewModel_6 = (function(f,seed,xs)
   {
-    return List__FoldIndexedAux$list_1_CityViewModel_15_String_list_1_CityViewModel_15_String(f, 0, seed, xs);
+    return List__FoldIndexedAux$list_1_CityViewModel_6_String_list_1_CityViewModel_6_String(f, 0, seed, xs);
   });
-  List__FoldIndexed$Zone_15_list_1_CityViewModel_15Zone_15_list_1_CityViewModel_15 = (function(f,seed,xs)
+  List__FoldIndexed$Zone_6_list_1_CityViewModel_6Zone_6_list_1_CityViewModel_6 = (function(f,seed,xs)
   {
-    return List__FoldIndexedAux$list_1_CityViewModel_15_Zone_15list_1_CityViewModel_15_Zone_15(f, 0, seed, xs);
+    return List__FoldIndexedAux$list_1_CityViewModel_6_Zone_6list_1_CityViewModel_6_Zone_6(f, 0, seed, xs);
   });
-  List__FoldIndexed$Zone_15_list_1_Zone_15Zone_15_list_1_Zone_15 = (function(f,seed,xs)
+  List__FoldIndexed$Zone_6_list_1_Zone_6Zone_6_list_1_Zone_6 = (function(f,seed,xs)
   {
-    return List__FoldIndexedAux$list_1_Zone_15_Zone_15list_1_Zone_15_Zone_15(f, 0, seed, xs);
+    return List__FoldIndexedAux$list_1_Zone_6_Zone_6list_1_Zone_6_Zone_6(f, 0, seed, xs);
   });
-  List__FoldIndexedAux$Int32__CarViewModel_13Int32_CarViewModel_13 = (function(f,i,acc,_arg1)
+  List__FoldIndexedAux$Int32__CarViewModel_6Int32_CarViewModel_6 = (function(f,i,acc,_arg1)
   {
     if ((_arg1.Tag == 1.000000)) 
     {
       var xs = _arg1.Item2;
       var x = _arg1.Item1;
-      return List__FoldIndexedAux$Int32__CarViewModel_13Int32_CarViewModel_13(f, (i + 1), f(i)(acc)(x), xs);
+      return List__FoldIndexedAux$Int32__CarViewModel_6Int32_CarViewModel_6(f, (i + 1), f(i)(acc)(x), xs);
     }
     else
     {
       return acc;
     };
   });
-  List__FoldIndexedAux$Int32__CityViewModel_15Int32_CityViewModel_15 = (function(f,i,acc,_arg1)
+  List__FoldIndexedAux$Int32__CityViewModel_6Int32_CityViewModel_6 = (function(f,i,acc,_arg1)
   {
     if ((_arg1.Tag == 1.000000)) 
     {
       var xs = _arg1.Item2;
       var x = _arg1.Item1;
-      return List__FoldIndexedAux$Int32__CityViewModel_15Int32_CityViewModel_15(f, (i + 1), f(i)(acc)(x), xs);
+      return List__FoldIndexedAux$Int32__CityViewModel_6Int32_CityViewModel_6(f, (i + 1), f(i)(acc)(x), xs);
     }
     else
     {
       return acc;
     };
   });
-  List__FoldIndexedAux$Unit__CarViewModel_13Unit__CarViewModel_13 = (function(f,i,acc,_arg1)
+  List__FoldIndexedAux$Unit__CarViewModel_6Unit__CarViewModel_6 = (function(f,i,acc,_arg1)
   {
     if ((_arg1.Tag == 1.000000)) 
     {
       var xs = _arg1.Item2;
       var x = _arg1.Item1;
-      return List__FoldIndexedAux$Unit__CarViewModel_13Unit__CarViewModel_13(f, (i + 1), f(i)(acc)(x), xs);
+      return List__FoldIndexedAux$Unit__CarViewModel_6Unit__CarViewModel_6(f, (i + 1), f(i)(acc)(x), xs);
     }
     else
     {
       return acc;
     };
   });
-  List__FoldIndexedAux$Unit__CityViewModel_15Unit__CityViewModel_15 = (function(f,i,acc,_arg1)
+  List__FoldIndexedAux$Unit__CityViewModel_6Unit__CityViewModel_6 = (function(f,i,acc,_arg1)
   {
     if ((_arg1.Tag == 1.000000)) 
     {
       var xs = _arg1.Item2;
       var x = _arg1.Item1;
-      return List__FoldIndexedAux$Unit__CityViewModel_15Unit__CityViewModel_15(f, (i + 1), f(i)(acc)(x), xs);
+      return List__FoldIndexedAux$Unit__CityViewModel_6Unit__CityViewModel_6(f, (i + 1), f(i)(acc)(x), xs);
     }
     else
     {
       return acc;
     };
   });
-  List__FoldIndexedAux$list_1_CarViewModel_13_CarType_13list_1_CarViewModel_13_CarType_13 = (function(f,i,acc,_arg1)
+  List__FoldIndexedAux$list_1_CarViewModel_6_CarType_6list_1_CarViewModel_6_CarType_6 = (function(f,i,acc,_arg1)
   {
     if ((_arg1.Tag == 1.000000)) 
     {
       var xs = _arg1.Item2;
       var x = _arg1.Item1;
-      return List__FoldIndexedAux$list_1_CarViewModel_13_CarType_13list_1_CarViewModel_13_CarType_13(f, (i + 1), f(i)(acc)(x), xs);
+      return List__FoldIndexedAux$list_1_CarViewModel_6_CarType_6list_1_CarViewModel_6_CarType_6(f, (i + 1), f(i)(acc)(x), xs);
     }
     else
     {
       return acc;
     };
   });
-  List__FoldIndexedAux$list_1_CarViewModel_13_CarViewModel_13list_1_CarViewModel_13_CarViewModel_13 = (function(f,i,acc,_arg1)
+  List__FoldIndexedAux$list_1_CarViewModel_6_CarViewModel_6list_1_CarViewModel_6_CarViewModel_6 = (function(f,i,acc,_arg1)
   {
     if ((_arg1.Tag == 1.000000)) 
     {
       var xs = _arg1.Item2;
       var x = _arg1.Item1;
-      return List__FoldIndexedAux$list_1_CarViewModel_13_CarViewModel_13list_1_CarViewModel_13_CarViewModel_13(f, (i + 1), f(i)(acc)(x), xs);
+      return List__FoldIndexedAux$list_1_CarViewModel_6_CarViewModel_6list_1_CarViewModel_6_CarViewModel_6(f, (i + 1), f(i)(acc)(x), xs);
     }
     else
     {
       return acc;
     };
   });
-  List__FoldIndexedAux$list_1_CarViewModel_13_Car_13list_1_CarViewModel_13_Car_13 = (function(f,i,acc,_arg1)
+  List__FoldIndexedAux$list_1_CarViewModel_6_Car_6list_1_CarViewModel_6_Car_6 = (function(f,i,acc,_arg1)
   {
     if ((_arg1.Tag == 1.000000)) 
     {
       var xs = _arg1.Item2;
       var x = _arg1.Item1;
-      return List__FoldIndexedAux$list_1_CarViewModel_13_Car_13list_1_CarViewModel_13_Car_13(f, (i + 1), f(i)(acc)(x), xs);
+      return List__FoldIndexedAux$list_1_CarViewModel_6_Car_6list_1_CarViewModel_6_Car_6(f, (i + 1), f(i)(acc)(x), xs);
     }
     else
     {
       return acc;
     };
   });
-  List__FoldIndexedAux$list_1_Car_13_Car_13list_1_Car_13_Car_13 = (function(f,i,acc,_arg1)
+  List__FoldIndexedAux$list_1_Car_6_Car_6list_1_Car_6_Car_6 = (function(f,i,acc,_arg1)
   {
     if ((_arg1.Tag == 1.000000)) 
     {
       var xs = _arg1.Item2;
       var x = _arg1.Item1;
-      return List__FoldIndexedAux$list_1_Car_13_Car_13list_1_Car_13_Car_13(f, (i + 1), f(i)(acc)(x), xs);
+      return List__FoldIndexedAux$list_1_Car_6_Car_6list_1_Car_6_Car_6(f, (i + 1), f(i)(acc)(x), xs);
     }
     else
     {
       return acc;
     };
   });
-  List__FoldIndexedAux$list_1_CityViewModel_15_CityViewModel_15list_1_CityViewModel_15_CityViewModel_15 = (function(f,i,acc,_arg1)
+  List__FoldIndexedAux$list_1_CityViewModel_6_CityViewModel_6list_1_CityViewModel_6_CityViewModel_6 = (function(f,i,acc,_arg1)
   {
     if ((_arg1.Tag == 1.000000)) 
     {
       var xs = _arg1.Item2;
       var x = _arg1.Item1;
-      return List__FoldIndexedAux$list_1_CityViewModel_15_CityViewModel_15list_1_CityViewModel_15_CityViewModel_15(f, (i + 1), f(i)(acc)(x), xs);
+      return List__FoldIndexedAux$list_1_CityViewModel_6_CityViewModel_6list_1_CityViewModel_6_CityViewModel_6(f, (i + 1), f(i)(acc)(x), xs);
     }
     else
     {
       return acc;
     };
   });
-  List__FoldIndexedAux$list_1_CityViewModel_15_String_list_1_CityViewModel_15_String = (function(f,i,acc,_arg1)
+  List__FoldIndexedAux$list_1_CityViewModel_6_String_list_1_CityViewModel_6_String = (function(f,i,acc,_arg1)
   {
     if ((_arg1.Tag == 1.000000)) 
     {
       var xs = _arg1.Item2;
       var x = _arg1.Item1;
-      return List__FoldIndexedAux$list_1_CityViewModel_15_String_list_1_CityViewModel_15_String(f, (i + 1), f(i)(acc)(x), xs);
+      return List__FoldIndexedAux$list_1_CityViewModel_6_String_list_1_CityViewModel_6_String(f, (i + 1), f(i)(acc)(x), xs);
     }
     else
     {
       return acc;
     };
   });
-  List__FoldIndexedAux$list_1_CityViewModel_15_Zone_15list_1_CityViewModel_15_Zone_15 = (function(f,i,acc,_arg1)
+  List__FoldIndexedAux$list_1_CityViewModel_6_Zone_6list_1_CityViewModel_6_Zone_6 = (function(f,i,acc,_arg1)
   {
     if ((_arg1.Tag == 1.000000)) 
     {
       var xs = _arg1.Item2;
       var x = _arg1.Item1;
-      return List__FoldIndexedAux$list_1_CityViewModel_15_Zone_15list_1_CityViewModel_15_Zone_15(f, (i + 1), f(i)(acc)(x), xs);
+      return List__FoldIndexedAux$list_1_CityViewModel_6_Zone_6list_1_CityViewModel_6_Zone_6(f, (i + 1), f(i)(acc)(x), xs);
     }
     else
     {
       return acc;
     };
   });
-  List__FoldIndexedAux$list_1_Zone_15_Zone_15list_1_Zone_15_Zone_15 = (function(f,i,acc,_arg1)
+  List__FoldIndexedAux$list_1_Zone_6_Zone_6list_1_Zone_6_Zone_6 = (function(f,i,acc,_arg1)
   {
     if ((_arg1.Tag == 1.000000)) 
     {
       var xs = _arg1.Item2;
       var x = _arg1.Item1;
-      return List__FoldIndexedAux$list_1_Zone_15_Zone_15list_1_Zone_15_Zone_15(f, (i + 1), f(i)(acc)(x), xs);
+      return List__FoldIndexedAux$list_1_Zone_6_Zone_6list_1_Zone_6_Zone_6(f, (i + 1), f(i)(acc)(x), xs);
     }
     else
     {
       return acc;
     };
   });
-  List__IterateIndexed$CarViewModel_13CarViewModel_13 = (function(f,xs)
+  List__IterateIndexed$CarViewModel_6CarViewModel_6 = (function(f,xs)
   {
     var _689;
-    return List__FoldIndexed$CarViewModel_13_Unit_CarViewModel_13_Unit_((function(i)
+    return List__FoldIndexed$CarViewModel_6_Unit_CarViewModel_6_Unit_((function(i)
     {
       return (function(unitVar1)
       {
@@ -470,10 +470,10 @@ var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilStr
       });
     }), _689, xs);
   });
-  List__IterateIndexed$CityViewModel_15CityViewModel_15 = (function(f,xs)
+  List__IterateIndexed$CityViewModel_6CityViewModel_6 = (function(f,xs)
   {
     var _326;
-    return List__FoldIndexed$CityViewModel_15_Unit_CityViewModel_15_Unit_((function(i)
+    return List__FoldIndexed$CityViewModel_6_Unit_CityViewModel_6_Unit_((function(i)
     {
       return (function(unitVar1)
       {
@@ -484,9 +484,9 @@ var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilStr
       });
     }), _326, xs);
   });
-  List__Length$CarViewModel_13CarViewModel_13 = (function(xs)
+  List__Length$CarViewModel_6CarViewModel_6 = (function(xs)
   {
-    return List__Fold$CarViewModel_13_Int32_CarViewModel_13_Int32((function(acc)
+    return List__Fold$CarViewModel_6_Int32_CarViewModel_6_Int32((function(acc)
     {
       return (function(_arg1)
       {
@@ -494,9 +494,9 @@ var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilStr
       });
     }), 0, xs);
   });
-  List__Length$CityViewModel_15CityViewModel_15 = (function(xs)
+  List__Length$CityViewModel_6CityViewModel_6 = (function(xs)
   {
-    return List__Fold$CityViewModel_15_Int32_CityViewModel_15_Int32((function(acc)
+    return List__Fold$CityViewModel_6_Int32_CityViewModel_6_Int32((function(acc)
     {
       return (function(_arg1)
       {
@@ -504,77 +504,77 @@ var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilStr
       });
     }), 0, xs);
   });
-  List__Map$CarType_13_CarViewModel_13CarType_13_CarViewModel_13 = (function(f,xs)
+  List__Map$CarType_6_CarViewModel_6CarType_6_CarViewModel_6 = (function(f,xs)
   {
     return (function(_xs)
     {
-      return List__Reverse$CarViewModel_13CarViewModel_13(_xs);
-    })(List__Fold$CarType_13_list_1_CarViewModel_13CarType_13_list_1_CarViewModel_13((function(acc)
+      return List__Reverse$CarViewModel_6CarViewModel_6(_xs);
+    })(List__Fold$CarType_6_list_1_CarViewModel_6CarType_6_list_1_CarViewModel_6((function(acc)
     {
       return (function(x)
       {
-        return (new list_1_CarViewModel_13_ConsCarViewModel_13(f(x), acc));
+        return (new list_1_CarViewModel_6_ConsCarViewModel_6(f(x), acc));
       });
-    }), (new list_1_CarViewModel_13_NilCarViewModel_13()), xs));
+    }), (new list_1_CarViewModel_6_NilCarViewModel_6()), xs));
   });
-  List__Map$String__CityViewModel_15String_CityViewModel_15 = (function(f,xs)
+  List__Map$String__CityViewModel_6String_CityViewModel_6 = (function(f,xs)
   {
     return (function(_xs)
     {
-      return List__Reverse$CityViewModel_15CityViewModel_15(_xs);
-    })(List__Fold$String__list_1_CityViewModel_15String_list_1_CityViewModel_15((function(acc)
+      return List__Reverse$CityViewModel_6CityViewModel_6(_xs);
+    })(List__Fold$String__list_1_CityViewModel_6String_list_1_CityViewModel_6((function(acc)
     {
       return (function(x)
       {
-        return (new list_1_CityViewModel_15_ConsCityViewModel_15(f(x), acc));
+        return (new list_1_CityViewModel_6_ConsCityViewModel_6(f(x), acc));
       });
-    }), (new list_1_CityViewModel_15_NilCityViewModel_15()), xs));
+    }), (new list_1_CityViewModel_6_NilCityViewModel_6()), xs));
   });
-  List__Reverse$CarViewModel_13CarViewModel_13 = (function(xs)
+  List__Reverse$CarViewModel_6CarViewModel_6 = (function(xs)
   {
-    return List__Fold$CarViewModel_13_list_1_CarViewModel_13CarViewModel_13_list_1_CarViewModel_13((function(acc)
+    return List__Fold$CarViewModel_6_list_1_CarViewModel_6CarViewModel_6_list_1_CarViewModel_6((function(acc)
     {
       return (function(x)
       {
-        return (new list_1_CarViewModel_13_ConsCarViewModel_13(x, acc));
+        return (new list_1_CarViewModel_6_ConsCarViewModel_6(x, acc));
       });
-    }), (new list_1_CarViewModel_13_NilCarViewModel_13()), xs);
+    }), (new list_1_CarViewModel_6_NilCarViewModel_6()), xs);
   });
-  List__Reverse$Car_13Car_13 = (function(xs)
+  List__Reverse$Car_6Car_6 = (function(xs)
   {
-    return List__Fold$Car_13_list_1_Car_13Car_13_list_1_Car_13((function(acc)
+    return List__Fold$Car_6_list_1_Car_6Car_6_list_1_Car_6((function(acc)
     {
       return (function(x)
       {
-        return (new list_1_Car_13_ConsCar_13(x, acc));
+        return (new list_1_Car_6_ConsCar_6(x, acc));
       });
-    }), (new list_1_Car_13_NilCar_13()), xs);
+    }), (new list_1_Car_6_NilCar_6()), xs);
   });
-  List__Reverse$CityViewModel_15CityViewModel_15 = (function(xs)
+  List__Reverse$CityViewModel_6CityViewModel_6 = (function(xs)
   {
-    return List__Fold$CityViewModel_15_list_1_CityViewModel_15CityViewModel_15_list_1_CityViewModel_15((function(acc)
+    return List__Fold$CityViewModel_6_list_1_CityViewModel_6CityViewModel_6_list_1_CityViewModel_6((function(acc)
     {
       return (function(x)
       {
-        return (new list_1_CityViewModel_15_ConsCityViewModel_15(x, acc));
+        return (new list_1_CityViewModel_6_ConsCityViewModel_6(x, acc));
       });
-    }), (new list_1_CityViewModel_15_NilCityViewModel_15()), xs);
+    }), (new list_1_CityViewModel_6_NilCityViewModel_6()), xs);
   });
-  List__Reverse$Zone_15Zone_15 = (function(xs)
+  List__Reverse$Zone_6Zone_6 = (function(xs)
   {
-    return List__Fold$Zone_15_list_1_Zone_15Zone_15_list_1_Zone_15((function(acc)
+    return List__Fold$Zone_6_list_1_Zone_6Zone_6_list_1_Zone_6((function(acc)
     {
       return (function(x)
       {
-        return (new list_1_Zone_15_ConsZone_15(x, acc));
+        return (new list_1_Zone_6_ConsZone_6(x, acc));
       });
-    }), (new list_1_Zone_15_NilZone_15()), xs);
+    }), (new list_1_Zone_6_NilZone_6()), xs);
   });
-  List__ToArray$CarViewModel_13CarViewModel_13 = (function(xs)
+  List__ToArray$CarViewModel_6CarViewModel_6 = (function(xs)
   {
-    var size = List__Length$CarViewModel_13CarViewModel_13(xs);
-    var ys = Array__ZeroCreate$CarViewModel_13CarViewModel_13(size);
-    List__IterateIndexed$CarViewModel_13CarViewModel_13((function(i)
+    var size = List__Length$CarViewModel_6CarViewModel_6(xs);
+    var ys = Array__ZeroCreate$CarViewModel_6CarViewModel_6(size);
+    List__IterateIndexed$CarViewModel_6CarViewModel_6((function(i)
     {
       return (function(x)
       {
@@ -584,11 +584,11 @@ var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilStr
     }), xs);
     return ys;
   });
-  List__ToArray$CityViewModel_15CityViewModel_15 = (function(xs)
+  List__ToArray$CityViewModel_6CityViewModel_6 = (function(xs)
   {
-    var size = List__Length$CityViewModel_15CityViewModel_15(xs);
-    var ys = Array__ZeroCreate$CityViewModel_15CityViewModel_15(size);
-    List__IterateIndexed$CityViewModel_15CityViewModel_15((function(i)
+    var size = List__Length$CityViewModel_6CityViewModel_6(xs);
+    var ys = Array__ZeroCreate$CityViewModel_6CityViewModel_6(size);
+    List__IterateIndexed$CityViewModel_6CityViewModel_6((function(i)
     {
       return (function(x)
       {
@@ -614,63 +614,63 @@ var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilStr
   {
     return ((option.Tag == 1.000000) && true);
   });
-  Program_15_GetCarItems$ = (function(cars)
+  Program_6_GetCarItems$ = (function(cars)
   {
     var mapping = (function(car)
     {
       var _mapping = (function(viewCar)
       {
-        return (new CarViewModel_13__ctor$(car.GroupName, viewCar.Name, viewCar.Coefficient));
+        return (new CarViewModel_6__ctor$(car.GroupName, viewCar.Name, viewCar.Coefficient));
       });
       return (function(list)
       {
-        return List__Map$CarType_13_CarViewModel_13CarType_13_CarViewModel_13(_mapping, list);
+        return List__Map$CarType_6_CarViewModel_6CarType_6_CarViewModel_6(_mapping, list);
       })(car.Type);
     });
     return (function(list)
     {
-      return List__ToArray$CarViewModel_13CarViewModel_13(list);
+      return List__ToArray$CarViewModel_6CarViewModel_6(list);
     })((function(list)
     {
-      return List__Collect$Car_13_CarViewModel_13Car_13_CarViewModel_13(mapping, list);
+      return List__Collect$Car_6_CarViewModel_6Car_6_CarViewModel_6(mapping, list);
     })(cars));
   });
-  Program_15_GetCityItems$ = (function(zones)
+  Program_6_GetCityItems$ = (function(zones)
   {
     var mapping = (function(zone)
     {
       var _mapping = (function(city)
       {
-        return (new CityViewModel_15__ctor$(city, zone.Name, zone.Coefficient));
+        return (new CityViewModel_6__ctor$(city, zone.Name, zone.Coefficient));
       });
       return (function(list)
       {
-        return List__Map$String__CityViewModel_15String_CityViewModel_15(_mapping, list);
+        return List__Map$String__CityViewModel_6String_CityViewModel_6(_mapping, list);
       })(zone.Cities);
     });
     return (function(list)
     {
-      return List__ToArray$CityViewModel_15CityViewModel_15(list);
+      return List__ToArray$CityViewModel_6CityViewModel_6(list);
     })((function(list)
     {
-      return List__Collect$Zone_15_CityViewModel_15Zone_15_CityViewModel_15(mapping, list);
+      return List__Collect$Zone_6_CityViewModel_6Zone_6_CityViewModel_6(mapping, list);
     })(zones));
   });
-  Program_15_get_cars$ = (function()
+  Program_6_get_cars$ = (function()
   {
-    return List__CreateCons$Car_13Car_13((new Car_13__ctor$("Мотоцикли та моторолери", List__CreateCons$CarType_13CarType_13((new CarType_13__ctor$(0.380000, "до 300 кубічних сантиметрів")), List__CreateCons$CarType_13CarType_13((new CarType_13__ctor$(0.680000, "від 300 кубічних сантиметрів")), List__Empty$CarType_13CarType_13())))), List__CreateCons$Car_13Car_13((new Car_13__ctor$("Легковий автомобіль", List__CreateCons$CarType_13CarType_13((new CarType_13__ctor$(1.000000, "до 1600 кубічних сантиметрів")), List__CreateCons$CarType_13CarType_13((new CarType_13__ctor$(1.180000, "2001 - 3000 кубічних сантиметрів")), List__CreateCons$CarType_13CarType_13((new CarType_13__ctor$(1.820000, "більше 3000 кубічних сантиметрів")), List__Empty$CarType_13CarType_13()))))), List__CreateCons$Car_13Car_13((new Car_13__ctor$("Вантажні автомобілі", List__CreateCons$CarType_13CarType_13((new CarType_13__ctor$(2.000000, "до 2 тонн (включно)")), List__CreateCons$CarType_13CarType_13((new CarType_13__ctor$(2.180000, "понад 2 тонни")), List__Empty$CarType_13CarType_13())))), List__CreateCons$Car_13Car_13((new Car_13__ctor$("Автобуси", List__CreateCons$CarType_13CarType_13((new CarType_13__ctor$(2.550000, "до 20 чоловік (включно)")), List__CreateCons$CarType_13CarType_13((new CarType_13__ctor$(3.000000, "понад 20 чоловік")), List__Empty$CarType_13CarType_13())))), List__CreateCons$Car_13Car_13((new Car_13__ctor$("Причепи", List__CreateCons$CarType_13CarType_13((new CarType_13__ctor$(0.500000, "до вантажних автомобілів")), List__CreateCons$CarType_13CarType_13((new CarType_13__ctor$(0.340000, "до легкових автомобілівв")), List__Empty$CarType_13CarType_13())))), List__Empty$Car_13Car_13())))));
+    return List__CreateCons$Car_6Car_6((new Car_6__ctor$("Мотоцикли та моторолери", List__CreateCons$CarType_6CarType_6((new CarType_6__ctor$(0.380000, "до 300 кубічних сантиметрів")), List__CreateCons$CarType_6CarType_6((new CarType_6__ctor$(0.680000, "від 300 кубічних сантиметрів")), List__Empty$CarType_6CarType_6())))), List__CreateCons$Car_6Car_6((new Car_6__ctor$("Легковий автомобіль", List__CreateCons$CarType_6CarType_6((new CarType_6__ctor$(1.000000, "до 1600 кубічних сантиметрів")), List__CreateCons$CarType_6CarType_6((new CarType_6__ctor$(1.180000, "2001 - 3000 кубічних сантиметрів")), List__CreateCons$CarType_6CarType_6((new CarType_6__ctor$(1.820000, "більше 3000 кубічних сантиметрів")), List__Empty$CarType_6CarType_6()))))), List__CreateCons$Car_6Car_6((new Car_6__ctor$("Вантажні автомобілі", List__CreateCons$CarType_6CarType_6((new CarType_6__ctor$(2.000000, "до 2 тонн (включно)")), List__CreateCons$CarType_6CarType_6((new CarType_6__ctor$(2.180000, "понад 2 тонни")), List__Empty$CarType_6CarType_6())))), List__CreateCons$Car_6Car_6((new Car_6__ctor$("Автобуси", List__CreateCons$CarType_6CarType_6((new CarType_6__ctor$(2.550000, "до 20 чоловік (включно)")), List__CreateCons$CarType_6CarType_6((new CarType_6__ctor$(3.000000, "понад 20 чоловік")), List__Empty$CarType_6CarType_6())))), List__CreateCons$Car_6Car_6((new Car_6__ctor$("Причепи", List__CreateCons$CarType_6CarType_6((new CarType_6__ctor$(0.500000, "до вантажних автомобілів")), List__CreateCons$CarType_6CarType_6((new CarType_6__ctor$(0.340000, "до легкових автомобілівв")), List__Empty$CarType_6CarType_6())))), List__Empty$Car_6Car_6())))));
   });
-  Program_15_get_scopeuse$ = (function()
+  Program_6_get_scopeuse$ = (function()
   {
-    return [(new ViewScopeUse_12__ctor$("Личный автомобиль", 1.000000)), (new ViewScopeUse_12__ctor$("Использую как такси", 1.400000)), (new ViewScopeUse_12__ctor$("Работаю водителем", 1.300000)), (new ViewScopeUse_12__ctor$("Работаю в такси", 1.500000))];
+    return [(new ViewScopeUse_6__ctor$("Личный автомобиль", 1.000000)), (new ViewScopeUse_6__ctor$("Использую как такси", 1.400000)), (new ViewScopeUse_6__ctor$("Работаю водителем", 1.300000)), (new ViewScopeUse_6__ctor$("Работаю в такси", 1.500000))];
   });
-  Program_15_get_zones$ = (function()
+  Program_6_get_zones$ = (function()
   {
-    return List__CreateCons$Zone_15Zone_15((new Zone_15__ctor$("Зона1", 4.800000, List__CreateCons$String_String("Киев", List__Empty$String_String()))), List__CreateCons$Zone_15Zone_15((new Zone_15__ctor$("Зона2", 2.500000, List__CreateCons$String_String("Босприсполь", List__CreateCons$String_String("Боярка", List__CreateCons$String_String("Бровары", List__CreateCons$String_String("Васильков", List__CreateCons$String_String("Вышгород", List__CreateCons$String_String("Вешневое", List__CreateCons$String_String("Ирпень", List__Empty$String_String()))))))))), List__CreateCons$Zone_15Zone_15((new Zone_15__ctor$("Зона3", 3.400000, List__CreateCons$String_String("Одесса", List__CreateCons$String_String("Харьков", List__Empty$String_String())))), List__CreateCons$Zone_15Zone_15((new Zone_15__ctor$("Зона4", 2.800000, List__CreateCons$String_String("Днепропетровск", List__CreateCons$String_String("Донецк", List__CreateCons$String_String("Запорожье", List__CreateCons$String_String("Кривой Рог", List__CreateCons$String_String("Львов", List__Empty$String_String()))))))), List__CreateCons$Zone_15Zone_15((new Zone_15__ctor$("Зона5", 2.200000, List__CreateCons$String_String("Алчевськ", List__CreateCons$String_String("Бердянськ", List__CreateCons$String_String("Біла Церква", List__CreateCons$String_String("Вінниця", List__CreateCons$String_String("Дніпродзержинськ", List__CreateCons$String_String("Горлівка", List__CreateCons$String_String("Євпаторія", List__CreateCons$String_String("Житомир", List__CreateCons$String_String("Івано-Франківськ", List__CreateCons$String_String("Кам’янець-Подільский", List__CreateCons$String_String("Керч", List__CreateCons$String_String("Кіровоград", List__CreateCons$String_String("Краматорськ", List__CreateCons$String_String("Кременчук", List__CreateCons$String_String("Лисичанськ", List__CreateCons$String_String("Луганськ", List__CreateCons$String_String("Луцьк", List__CreateCons$String_String("Макіївка", List__CreateCons$String_String("Маріуполь", List__CreateCons$String_String("Мелітополь", List__CreateCons$String_String("Миколаїв", List__CreateCons$String_String("Нікополь", List__CreateCons$String_String("Павлоград", List__CreateCons$String_String("Полтава", List__CreateCons$String_String("Рівне", List__CreateCons$String_String("Севастополь", List__CreateCons$String_String("Сєверодонецьк", List__CreateCons$String_String("Сімферополь", List__CreateCons$String_String("Слов’янськ", List__CreateCons$String_String("Суми", List__CreateCons$String_String("Тернопіль", List__CreateCons$String_String("Ужгород", List__CreateCons$String_String("Херсон", List__CreateCons$String_String("Хмельницький", List__CreateCons$String_String("Черкаси", List__CreateCons$String_String("Чернівці", List__CreateCons$String_String("Чернігів", List__Empty$String_String()))))))))))))))))))))))))))))))))))))))), List__CreateCons$Zone_15Zone_15((new Zone_15__ctor$("Зона6", 1.500000, List__CreateCons$String_String("Другие населенные пункты Украины", List__Empty$String_String()))), List__CreateCons$Zone_15Zone_15((new Zone_15__ctor$("Зона7", 3.000000, List__CreateCons$String_String("За пределами Украины", List__Empty$String_String()))), List__Empty$Zone_15Zone_15())))))));
+    return List__CreateCons$Zone_6Zone_6((new Zone_6__ctor$("Зона1", 4.800000, List__CreateCons$String_String("Киев", List__Empty$String_String()))), List__CreateCons$Zone_6Zone_6((new Zone_6__ctor$("Зона2", 2.500000, List__CreateCons$String_String("Босприсполь", List__CreateCons$String_String("Боярка", List__CreateCons$String_String("Бровары", List__CreateCons$String_String("Васильков", List__CreateCons$String_String("Вышгород", List__CreateCons$String_String("Вешневое", List__CreateCons$String_String("Ирпень", List__Empty$String_String()))))))))), List__CreateCons$Zone_6Zone_6((new Zone_6__ctor$("Зона3", 3.400000, List__CreateCons$String_String("Одесса", List__CreateCons$String_String("Харьков", List__Empty$String_String())))), List__CreateCons$Zone_6Zone_6((new Zone_6__ctor$("Зона4", 2.800000, List__CreateCons$String_String("Днепропетровск", List__CreateCons$String_String("Донецк", List__CreateCons$String_String("Запорожье", List__CreateCons$String_String("Кривой Рог", List__CreateCons$String_String("Львов", List__Empty$String_String()))))))), List__CreateCons$Zone_6Zone_6((new Zone_6__ctor$("Зона5", 2.200000, List__CreateCons$String_String("Алчевськ", List__CreateCons$String_String("Бердянськ", List__CreateCons$String_String("Біла Церква", List__CreateCons$String_String("Вінниця", List__CreateCons$String_String("Дніпродзержинськ", List__CreateCons$String_String("Горлівка", List__CreateCons$String_String("Євпаторія", List__CreateCons$String_String("Житомир", List__CreateCons$String_String("Івано-Франківськ", List__CreateCons$String_String("Кам’янець-Подільский", List__CreateCons$String_String("Керч", List__CreateCons$String_String("Кіровоград", List__CreateCons$String_String("Краматорськ", List__CreateCons$String_String("Кременчук", List__CreateCons$String_String("Лисичанськ", List__CreateCons$String_String("Луганськ", List__CreateCons$String_String("Луцьк", List__CreateCons$String_String("Макіївка", List__CreateCons$String_String("Маріуполь", List__CreateCons$String_String("Мелітополь", List__CreateCons$String_String("Миколаїв", List__CreateCons$String_String("Нікополь", List__CreateCons$String_String("Павлоград", List__CreateCons$String_String("Полтава", List__CreateCons$String_String("Рівне", List__CreateCons$String_String("Севастополь", List__CreateCons$String_String("Сєверодонецьк", List__CreateCons$String_String("Сімферополь", List__CreateCons$String_String("Слов’янськ", List__CreateCons$String_String("Суми", List__CreateCons$String_String("Тернопіль", List__CreateCons$String_String("Ужгород", List__CreateCons$String_String("Херсон", List__CreateCons$String_String("Хмельницький", List__CreateCons$String_String("Черкаси", List__CreateCons$String_String("Чернівці", List__CreateCons$String_String("Чернігів", List__Empty$String_String()))))))))))))))))))))))))))))))))))))))), List__CreateCons$Zone_6Zone_6((new Zone_6__ctor$("Зона6", 1.500000, List__CreateCons$String_String("Другие населенные пункты Украины", List__Empty$String_String()))), List__CreateCons$Zone_6Zone_6((new Zone_6__ctor$("Зона7", 3.000000, List__CreateCons$String_String("За пределами Украины", List__Empty$String_String()))), List__Empty$Zone_6Zone_6())))))));
   });
-  Program_15_main$ = (function(unitVar0)
+  Program_6_main$ = (function(unitVar0)
   {
-    var model = (new ViewModel_13__ctor$(Program_15_GetCityItems$(Program_15_zones), Program_15_GetCarItems$(Program_15_cars), Program_15_scopeuse, (Seq__ToArray$Int32_Int32(Range__oneStep$Int32_Int32(1950, 2016)).reverse())));
+    var model = (new ViewModel_6__ctor$(Program_6_GetCityItems$(Program_6_zones), Program_6_GetCarItems$(Program_6_cars), Program_6_scopeuse, (Seq__ToArray$Int32_Int32(Range__oneStep$Int32_Int32(1950, 2016)).reverse())));
     var app = ((window.angular).module("App", []));
     (function(value)
     {
@@ -678,7 +678,7 @@ var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilStr
     })((app.controller("OptionCtrl", ["$scope", (function(scope)
     {
       scope["data"] = model;
-      return scope["calculation"] = (function(_unitVar0)
+      scope["calculation"] = (function(_unitVar0)
       {
         try
         {
@@ -689,6 +689,9 @@ var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilStr
           return "Enter valid data";
         };
       });
+      var GroupName = "Легковий автомобіль";
+      var Coefficient = 1.000000;
+      return scope["selected"] = (new ViewModel_6__ctor$([(new CityViewModel_6__ctor$("Киев", "Зона1", 4.800000))], [(new CarViewModel_6__ctor$(GroupName, "до 1600 кубічних сантиметрів", Coefficient))], [(new ViewScopeUse_6__ctor$("Личный автомобиль", 1.000000))], [2016]));
     })])));
   });
   Range__customStep$Int32__Int32_Int32_Int32 = (function(first,stepping,last)
@@ -850,7 +853,7 @@ var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilStr
     __this.acc = {Tag: 1.000000, Value: __this.seed};
     __this.current = null;
   });
-  ViewModel_13__ctor$ = (function(city,typecar,scopeuse,years)
+  ViewModel_6__ctor$ = (function(city,typecar,scopeuse,years)
   {
     var __this = this;
     __this.city = city;
@@ -858,20 +861,20 @@ var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilStr
     __this.scopeuse = scopeuse;
     __this.years = years;
   });
-  ViewScopeUse_12__ctor$ = (function(Name,Coefficient)
+  ViewScopeUse_6__ctor$ = (function(Name,Coefficient)
   {
     var __this = this;
     __this.Name = Name;
     __this.Coefficient = Coefficient;
   });
-  Zone_15__ctor$ = (function(Name,Coefficient,Cities)
+  Zone_6__ctor$ = (function(Name,Coefficient,Cities)
   {
     var __this = this;
     __this.Name = Name;
     __this.Coefficient = Coefficient;
     __this.Cities = Cities;
   });
-  list_1_CarType_13_ConsCarType_13 = (function(Item1,Item2)
+  list_1_CarType_6_ConsCarType_6 = (function(Item1,Item2)
   {
     var __this = this;
     __this.Tag = 1.000000;
@@ -879,13 +882,13 @@ var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilStr
     __this.Item1 = Item1;
     __this.Item2 = Item2;
   });
-  list_1_CarType_13_NilCarType_13 = (function()
+  list_1_CarType_6_NilCarType_6 = (function()
   {
     var __this = this;
     __this.Tag = 0.000000;
     __this._CaseName = "Nil";
   });
-  list_1_CarViewModel_13_ConsCarViewModel_13 = (function(Item1,Item2)
+  list_1_CarViewModel_6_ConsCarViewModel_6 = (function(Item1,Item2)
   {
     var __this = this;
     __this.Tag = 1.000000;
@@ -893,13 +896,13 @@ var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilStr
     __this.Item1 = Item1;
     __this.Item2 = Item2;
   });
-  list_1_CarViewModel_13_NilCarViewModel_13 = (function()
+  list_1_CarViewModel_6_NilCarViewModel_6 = (function()
   {
     var __this = this;
     __this.Tag = 0.000000;
     __this._CaseName = "Nil";
   });
-  list_1_Car_13_ConsCar_13 = (function(Item1,Item2)
+  list_1_Car_6_ConsCar_6 = (function(Item1,Item2)
   {
     var __this = this;
     __this.Tag = 1.000000;
@@ -907,13 +910,13 @@ var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilStr
     __this.Item1 = Item1;
     __this.Item2 = Item2;
   });
-  list_1_Car_13_NilCar_13 = (function()
+  list_1_Car_6_NilCar_6 = (function()
   {
     var __this = this;
     __this.Tag = 0.000000;
     __this._CaseName = "Nil";
   });
-  list_1_CityViewModel_15_ConsCityViewModel_15 = (function(Item1,Item2)
+  list_1_CityViewModel_6_ConsCityViewModel_6 = (function(Item1,Item2)
   {
     var __this = this;
     __this.Tag = 1.000000;
@@ -921,7 +924,7 @@ var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilStr
     __this.Item1 = Item1;
     __this.Item2 = Item2;
   });
-  list_1_CityViewModel_15_NilCityViewModel_15 = (function()
+  list_1_CityViewModel_6_NilCityViewModel_6 = (function()
   {
     var __this = this;
     __this.Tag = 0.000000;
@@ -941,7 +944,7 @@ var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilStr
     __this.Tag = 0.000000;
     __this._CaseName = "Nil";
   });
-  list_1_Zone_15_ConsZone_15 = (function(Item1,Item2)
+  list_1_Zone_6_ConsZone_6 = (function(Item1,Item2)
   {
     var __this = this;
     __this.Tag = 1.000000;
@@ -949,13 +952,13 @@ var list_1_Zone_15_NilZone_15, list_1_Zone_15_ConsZone_15, list_1_String__NilStr
     __this.Item1 = Item1;
     __this.Item2 = Item2;
   });
-  list_1_Zone_15_NilZone_15 = (function()
+  list_1_Zone_6_NilZone_6 = (function()
   {
     var __this = this;
     __this.Tag = 0.000000;
     __this._CaseName = "Nil";
   });
-  Program_15_zones = Program_15_get_zones$();
-  Program_15_cars = Program_15_get_cars$();
-  Program_15_scopeuse = Program_15_get_scopeuse$();
-  Program_15_main$()
+  Program_6_zones = Program_6_get_zones$();
+  Program_6_cars = Program_6_get_cars$();
+  Program_6_scopeuse = Program_6_get_scopeuse$();
+  Program_6_main$()
