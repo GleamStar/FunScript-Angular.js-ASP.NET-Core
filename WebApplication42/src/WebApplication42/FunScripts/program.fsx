@@ -103,7 +103,7 @@ module Program =
         {GroupName="Причепи";Type=[{Coefficient=0.5;Name="до вантажних автомобілів"};{Coefficient=0.34;Name="до легкових автомобілівв"}]}
     ]
     let (scopeuse:ViewScopeUse array) =[|{Name="Личный автомобиль";Coefficient=1.;};{Name="Использую как такси";Coefficient=1.4;};{Name="Работаю водителем";Coefficient=1.3;};{Name="Работаю в такси";Coefficient=1.5;}|]
-
+  
     let GetCityItems (zones:Zone list) =
       zones 
       |> List.collect(fun zone ->
@@ -132,18 +132,18 @@ module Program =
 
                   app.controller("OptionCtrl",[|"$scope":>obj;(fun (scope: ng.IScope) ->                 
                    scope?data <- model
-                   scope?calculation <- fun () -> try  
+                   scope?calculation <- fun () -> //try  
                                                       Math.Round(180.*1.5* scope?selected?scopeuse?Coefficient * scope?selected?city?Coefficient *scope?selected?scopeuse?Coefficient).ToString()
-                                                  with | _  -> "Enter valid data"                                              
-                   scope?selected <-{
-                      city = {Name="Киев";Zone="Зона1";Coefficient=4.8}
-                      typecar = {GroupName ="Легковий автомобіль";Coefficient=1.;Name="до 1600 кубічних сантиметрів"} 
-                      scopeuse = {Name="Личный автомобиль";Coefficient=1.;} 
-                      years = 2016
-                   }
-                         
+                                                  //with | _  -> "Enter valid data"                                              
+//                   scope?selected <-{
+//                      city = {Name="Киев";Zone="Зона1";Coefficient=4.8}
+//                      typecar = {GroupName ="Легковий автомобіль";Coefficient=1.;Name="до 1600 кубічних сантиметрів"} 
+//                      scopeuse = {Name="Личный автомобиль";Coefficient=1.;} 
+//                      years = 2016
+                      ):>obj|]);
                    
-                   ):>obj|])|> ignore
+                   
+                   |> ignore
                   ()
                                                          
 
