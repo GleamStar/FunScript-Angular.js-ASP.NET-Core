@@ -15,9 +15,6 @@ open FunScript
 module Angular =
     let [<JSEmitInline("{0}[{1}] = {2}")>] (?<-) obj name value = ()
     let [<JSEmitInline("{0}[{1}]")>] (?) (v: obj) name: 'T = unbox (obj())
-    type ng.IScope with
-            member self.``$watch``(watchExpression) =
-                self.Dollarwatch(watchExpression: string)
 
 
 [<ReflectedDefinition>]
@@ -123,7 +120,7 @@ module Program =
                        city = GetCityItems zones ;
                        typecar= GetCarItems cars
                        scopeuse = scopeuse;
-                       years= [|1950..2016|].reverse()
+                       years= [|2016..-1..1950|]
                   }
                   let app = Globals.angular._module("App", [||])
                 
@@ -152,6 +149,6 @@ open System.IO
 let dir = __SOURCE_DIRECTORY__
 // External libraries can provide additional components to FunScript compiler
 // In most of the tutorials we'll be using components from FunScript.HTML extensions
-let components = FunScript.HTML.Components.getHTMLComponents()
-let code = FunScript.Compiler.Compiler.Compile(<@ Program.main() @>, noReturn=true, components=components)
+//let components = FunScript.HTML.Components.getHTMLComponents()
+let code = FunScript.Compiler.Compiler.Compile(<@ Program.main() @>, noReturn=true)
 File.WriteAllText(Path.Combine(dir, "../wwwroot/fun/funapp.js"), code)

@@ -5,18 +5,42 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Result</h4>
+                <h4 class="modal-title">Ваш заказ</h4>
             </div>
             <div class="modal-body">
-                <ul>
-                    <li>Your car is <span class="text-info">{{selected.typecar.GroupName}} {{selected.typecar.Name}}</span></li>
-                    <li>Your city is <span class="text-info">{{selected.city.Name}}</span></li>
-                    <li>Car year is <span class="text-info">{{selected.years}}</span></li>
-                    <li>Crash <span class="text-info">{{selected.scopeuse.Name}}</span></li>
-                </ul>
-                <p>Price:<span class="text-warning">{{calculation()}}</span></p>
+                @*<ul class="list-group ">
+                    <li class="list-group-item">Тип  : <span class="text-info pull-right ">{{selected.typecar.GroupName}} {{selected.typecar.Name}}</span></li>
+                    <li class="list-group-item ">Город  :<span class="text-info pull-right">{{selected.city.Name}}</span></li>
+                    <li class="list-group-item">Год выпуска машины <span class="text-info pull-right">{{selected.years}}</span></li>
+                    <li class="list-group-item">Сфера использования <span class="text-info pull-right">{{selected.scopeuse.Name}}</span></li>
+                    <li class="list-group-item ">Цена:<span class="text-warning pull-right">{{calculation()}}</span></li>
+                </ul>*@
+                <table class="table table-bordered">
+                    <tr>
+                        <td>Тип  :</td>
+                        <td>{{selected.typecar.GroupName}} {{selected.typecar.Name}}</td>
+                    </tr>
+                    <tr>
+                        <td>Город  :</td>
+                        <td>{{selected.city.Name}}</td>
+                    </tr>
+                    <tr >
+                        <td >Год выпуска машины </td>
+                        <td>{{selected.years}}</td>
+                    </tr>
+                    <tr >
+                        <td >Сфера использования </td>
+                        <td>{{selected.scopeuse.Name}}</td>
+                    </tr>
+                    <tr >
+                        <td>Цена</td>
+                        <td class="text-warning">{{calculation()}} грн.</td>
+                    </tr>
+                </table>
+
             </div>
             <div class="modal-footer">
+                <button type="button" class="btn btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Заказать</button>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
         </div>

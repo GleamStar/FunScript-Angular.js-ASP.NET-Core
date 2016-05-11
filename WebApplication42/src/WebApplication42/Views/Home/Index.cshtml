@@ -58,23 +58,25 @@
         <form name="form"  >
             <fieldset class="form-group">
                 <label for="typecar">Type of vehicle <i class="fa fa-asterisk " ></i></label>
-                <select id="typecar" name="typecar" class="form-control" ng-model="selected.typecar" ng-required="true" ng-options="(item.GroupName +' ' + item.Name ) group by item.GroupName for item in data.typecar "></select>     
+                <select id="typecar" name="typecar" class="form-control" ng-init="selected.typecar = data.typecar[2]" ng-model="selected.typecar" ng-required="true" ng-options="(item.GroupName +' ' + item.Name ) group by item.GroupName for item in data.typecar ">
+                    
+                </select>     
                           
             </fieldset>
 
             <fieldset class="form-group">
                 <label for="city">City vehicle registration <i class="fa fa-asterisk" aria-hidden="true"></i></label>
-                <select id="city" class="form-control" ng-model="selected.city" ng-required="true" ng-options="item.Name group by item.Zone for item in data.city"></select>
+                <select id="city" class="form-control" ng-init="selected.city = data.city[0]" ng-model="selected.city" ng-required="true" ng-options="item.Name group by item.Zone for item in data.city"></select>
             </fieldset>
             
             <fieldset class="form-group">
                 <label for="years">Year Vehicle</label>
-                <select id="years" class="form-control" ng-model="selected.years"  ng-options="item for item in data.years"></select>
+                <select id="years" class="form-control" ng-init="selected.years = 2016" ng-model="selected.years"  ng-options="item for item in data.years"></select>
             </fieldset>  
                   
             <fieldset class="form-group animate-show">
                 <label for="scopeuse">Scope of use of vehicle <i class="fa fa-asterisk" aria-hidden="true"></i></label>
-                <select id="scopeuse" class="form-control" ng-model="selected.scopeuse" ng-required="true" ng-options="item.Name for item in data.scopeuse"></select>
+                <select id="scopeuse" class="form-control" ng-init="selected.scopeuse = data.scopeuse[0]" ng-model="selected.scopeuse" ng-required="true" ng-options="item.Name for item in data.scopeuse"></select>
             </fieldset> 
                
             <button type="button" class="btn btn-success-outline center-block" data-toggle="modal" data-target="#myModal" ng-disabled="form.$invalid">
