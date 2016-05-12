@@ -5,7 +5,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Ваш заказ</h4>
+                <h4 class="modal-title">Your order</h4>
             </div>
             <div class="modal-body">
                 @*<ul class="list-group ">
@@ -17,23 +17,23 @@
                 </ul>*@
                 <table class="table table-bordered">
                     <tr>
-                        <td>Тип  :</td>
+                        <td>Type :</td>
                         <td>{{selected.typecar.GroupName}} {{selected.typecar.Name}}</td>
                     </tr>
                     <tr>
-                        <td>Город  :</td>
+                        <td>City :</td>
                         <td>{{selected.city.Name}}</td>
                     </tr>
                     <tr >
-                        <td >Год выпуска машины </td>
+                        <td >Car manufacture </td>
                         <td>{{selected.years}}</td>
                     </tr>
                     <tr >
-                        <td >Сфера использования </td>
+                        <td >Scope of use </td>
                         <td>{{selected.scopeuse.Name}}</td>
                     </tr>
                     <tr >
-                        <td>Цена</td>
+                        <td>Price</td>
                         <td class="text-warning">{{calculation()}} грн.</td>
                     </tr>
                 </table>
